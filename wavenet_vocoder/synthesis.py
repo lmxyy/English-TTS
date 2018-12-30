@@ -49,8 +49,7 @@ def _to_numpy(x):
     return x.numpy()
 
 
-def wavegen(model, length=None, c=None, g=None, initial_value=None,
-            fast=False, tqdm=tqdm):
+def wavegen(model, length=None, c=None, g=None, initial_value=None, fast=False, tqdm=tqdm):
     """Generate waveform samples by WaveNet.
 
     Args:
